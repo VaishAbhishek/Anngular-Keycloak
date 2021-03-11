@@ -1,0 +1,8 @@
+<h1>Hi {{user}}</h1>
+
+<div class="table">
+    <div class="tr" *ngFor="let rules of tok">
+        <div class="td">{{rules}}</div>
+    </div>
+</div>
+<button (click)="logout()">Logout</button>
